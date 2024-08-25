@@ -1,0 +1,59 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.sponsor {
+
+	text-align: center;
+	
+}
+
+.dog-pic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+
+}
+
+.sponsor-logo {
+	display: flex;
+	gap: 237px;
+	margin-bottom: 20px;
+}
+
+.sponsor-logo img {
+	height: 35px;
+
+}
+
+.sponsor-logo .tnw {
+	width: 80px;
+}
+
+.myicon {
+	padding: 8px;
+	background-color: rgb(221, 221, 221);
+	border-radius: 5px;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.con{
+	margin-top: 40px;
+	border: 20px;
+	border-bottom: 40px;
+}
